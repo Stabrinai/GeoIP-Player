@@ -1,4 +1,4 @@
-package org.github.stabrinai.geoIPPlayer.util;
+package org.github.stabrinai.geoipplayer.util;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

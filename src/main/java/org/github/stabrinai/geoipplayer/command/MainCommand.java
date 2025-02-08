@@ -1,9 +1,9 @@
-package org.github.stabrinai.geoIPPlayer.command;
+package org.github.stabrinai.geoipplayer.command;
 
 import com.mojang.brigadier.tree.LiteralCommandNode;
 import io.papermc.paper.command.brigadier.CommandSourceStack;
 import io.papermc.paper.command.brigadier.Commands;
-import org.github.stabrinai.geoIPPlayer.GeoIPPlayer;
+import org.github.stabrinai.geoipplayer.GeoIPPlayer;
 
 public class MainCommand {
     public static LiteralCommandNode<CommandSourceStack> registerAllCommand(GeoIPPlayer plugin) {

@@ -1,4 +1,4 @@
-package org.github.stabrinai.geoIPPlayer.record;
+package org.github.stabrinai.geoipplayer.record;
 
 import com.maxmind.db.MaxMindDbConstructor;
 import com.maxmind.db.MaxMindDbParameter;

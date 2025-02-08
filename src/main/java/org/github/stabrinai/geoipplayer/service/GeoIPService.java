@@ -1,12 +1,12 @@
-package org.github.stabrinai.geoIPPlayer.service;
+package org.github.stabrinai.geoipplayer.service;
 
 
 import com.maxmind.db.CHMCache;
 import com.maxmind.db.Reader;
 import org.bukkit.Bukkit;
-import org.github.stabrinai.geoIPPlayer.GeoIPPlayer;
-import org.github.stabrinai.geoIPPlayer.record.LookupResult;
-import org.github.stabrinai.geoIPPlayer.util.InternetProtocolUtils;
+import org.github.stabrinai.geoipplayer.GeoIPPlayer;
+import org.github.stabrinai.geoipplayer.record.LookupResult;
+import org.github.stabrinai.geoipplayer.util.InternetProtocolUtils;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -15,7 +15,6 @@ import java.io.InputStream;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.net.URI;
-import java.net.UnknownHostException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;

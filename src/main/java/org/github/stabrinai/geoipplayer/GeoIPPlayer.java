@@ -1,12 +1,12 @@
-package org.github.stabrinai.geoIPPlayer;
+package org.github.stabrinai.geoipplayer;
 
 import io.papermc.paper.plugin.lifecycle.event.types.LifecycleEvents;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.github.stabrinai.geoIPPlayer.command.MainCommand;
-import org.github.stabrinai.geoIPPlayer.listener.PlayerListener;
-import org.github.stabrinai.geoIPPlayer.placeholder.Expansion;
-import org.github.stabrinai.geoIPPlayer.service.GeoIPService;
+import org.github.stabrinai.geoipplayer.command.MainCommand;
+import org.github.stabrinai.geoipplayer.listener.PlayerListener;
+import org.github.stabrinai.geoipplayer.placeholder.Expansion;
+import org.github.stabrinai.geoipplayer.service.GeoIPService;
 
 import java.util.HashMap;
 

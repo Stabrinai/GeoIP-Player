@@ -1,11 +1,11 @@
-package org.github.stabrinai.geoIPPlayer.listener;
+package org.github.stabrinai.geoipplayer.listener;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
-import org.github.stabrinai.geoIPPlayer.GeoIPPlayer;
-import org.github.stabrinai.geoIPPlayer.service.GeoIPService;
+import org.github.stabrinai.geoipplayer.GeoIPPlayer;
+import org.github.stabrinai.geoipplayer.service.GeoIPService;
 
 import java.net.InetSocketAddress;
 import java.util.HashMap;

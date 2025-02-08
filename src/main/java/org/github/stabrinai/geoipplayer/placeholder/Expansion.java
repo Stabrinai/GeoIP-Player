@@ -1,8 +1,8 @@
-package org.github.stabrinai.geoIPPlayer.placeholder;
+package org.github.stabrinai.geoipplayer.placeholder;
 
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import org.bukkit.OfflinePlayer;
-import org.github.stabrinai.geoIPPlayer.GeoIPPlayer;
+import org.github.stabrinai.geoipplayer.GeoIPPlayer;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.HashMap;

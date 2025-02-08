@@ -1,4 +1,4 @@
-package org.github.stabrinai.geoIPPlayer.command;
+package org.github.stabrinai.geoipplayer.command;
 
 import com.mojang.brigadier.Command;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
@@ -6,7 +6,7 @@ import io.papermc.paper.command.brigadier.CommandSourceStack;
 import io.papermc.paper.command.brigadier.Commands;
 import org.apache.commons.lang3.StringUtils;
 import org.bukkit.Bukkit;
-import org.github.stabrinai.geoIPPlayer.GeoIPPlayer;
+import org.github.stabrinai.geoipplayer.GeoIPPlayer;
 
 import java.util.HashMap;
 

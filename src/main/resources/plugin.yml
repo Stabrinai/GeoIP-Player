@@ -1,6 +1,6 @@
 name: GeoIP-Player
 version: '${project.version}'
-main: org.github.stabrinai.geoIPPlayer.GeoIPPlayer
+main: org.github.stabrinai.geoipplayer.GeoIPPlayer
 api-version: '1.21'
 softdepend:
   - PlaceholderAPI
