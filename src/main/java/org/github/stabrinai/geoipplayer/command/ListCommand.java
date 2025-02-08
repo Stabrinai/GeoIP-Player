@@ -30,7 +30,7 @@ public class ListCommand {
 
                             if (playerValue.containsKey("ERROR")) {
                                 result.append("<RED>").append(playerName).append("</RED>, ");
-                            } else if (Bukkit.getPlayer(playerName).isOnline()) {
+                            } else if (!Bukkit.getPlayer(playerName).isOnline()) {
                                 result.append("<GRAY>").append(playerName).append("</GRAY>, ");
                             } else {
                                 result.append("<GREEN>").append(playerName).append("</GREEN>, ");
