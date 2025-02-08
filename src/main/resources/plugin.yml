@@ -1,0 +1,8 @@
+name: GeoIP-Player
+version: '${project.version}'
+main: org.github.stabrinai.geoIPPlayer.GeoIPPlayer
+api-version: '1.21'
+softdepend:
+  - PlaceholderAPI
+libraries:
+  - com.maxmind.geoip2:geoip2:${dependencies.geoip2.version}

@@ -1,0 +1,23 @@
+geolite2:
+  # 可更改显示语言, 例: zh-CN = 香港, en = Hong Kong
+  # 可用语言: de, ru, pt-BR, ja, en, fr, zh-CN, es
+  # 填写非可用语言时返回默认值 en
+  language: zh-CN
+
+  # 数据库文件更新间隔, 单位: 天
+  # 值小于 7 时禁用更新
+  update_interval_days: 30
+
+  # 填写 GeoLite2-City.mmdb 的下载链接
+  download_url: https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-City.mmdb
+
+toggle:
+  # 退出服务器时清空查询结果
+  delete_on_quit: false
+
+# 支持使用MiniMessage格式
+messages:
+  local_address: "本地"
+  database_error: "数据库错误"
+  reload_config: "配置文件已重载"
+  no_data: "数据为空"
